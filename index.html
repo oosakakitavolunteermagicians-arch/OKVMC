@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サイト</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- メインコンテンツ -->
+  <div id="main">
+    <div id="page-top" class="page active">
+      <h1>TOP</h1>
+      <p>ようこそ。このサイトのトップページです。</p>
+    </div>
+
+    <div id="page-about" class="page">
+      <h1>About Us</h1>
+      <p>私たちについてのページです。</p>
+    </div>
+
+    <div id="page-works" class="page">
+      <h1>活動実績</h1>
+      <p>これまでの活動実績を紹介するページです。</p>
+    </div>
+
+    <div id="page-contact" class="page">
+      <h1>お問い合わせ</h1>
+      <p>お問い合わせはこちらのページからどうぞ。</p>
+    </div>
+  </div>
+
+  <!-- 右サイドバー -->
+  <div id="sidebar">
+    <div class="logo">MENU</div>
+    <nav>
+      <a href="#" class="nav-link active" data-target="page-top">TOP</a>
+      <a href="#" class="nav-link" data-target="page-about">About Us</a>
+      <a href="#" class="nav-link" data-target="page-works">活動実績</a>
+      <a href="#" class="nav-link" data-target="page-contact">お問い合わせ</a>
+    </nav>
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
