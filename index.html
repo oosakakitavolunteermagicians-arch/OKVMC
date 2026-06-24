@@ -5,37 +5,191 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>サイト</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5K3PKDK8LQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5K3PKDK8LQ');
+  </script>
 </head>
 <body>
 
   <!-- メインコンテンツ -->
   <div id="main">
     <div id="page-top" class="page active">
-      <h1>TOP</h1>
-      <p>ようこそ。このサイトのトップページです。</p>
+      <img src="image/TopPage/TopPage.png" alt="OKVMC">
     </div>
 
     <div id="page-about" class="page">
       <h1>About Us</h1>
-      <p>私たちについてのページです。</p>
+      <p class="catchcopy">笑顔と驚きをお届けする、ボランティアマジックチーム</p>
+
+      <section class="about-section">
+        <h2>団体紹介</h2>
+        <p>OKVMCは、社会人によるマジックサークルです。任意団体として、マジックショーを通じて社会に貢献することを目的にボランティア活動を行っています。大阪北部（豊中市・吹田市・大阪市など）を拠点に活動しています。</p>
+        <p>メンバーはかつて有償でショーを行っていた経験を持ち、演出・安全性・観客への配慮を大切にしています。私たちのショーが、マジックという表現の世界への入り口になれれば幸いです。プロマジシャンの圧倒的な技術と世界観にも、ぜひ興味を持っていただけると嬉しいです。</p>
+      </section>
+
+      <section class="about-section">
+        <h2>こんな場面に呼ばれています</h2>
+        <ul>
+          <li>老人ホーム・デイサービス</li>
+          <li>幼稚園・小学校行事</li>
+          <li>地域のお祭り・イベント</li>
+          <li>子ども会・施設イベント</li>
+        </ul>
+      </section>
+
+      <section class="about-section">
+        <h2>私たちにできること</h2>
+        <p>お子様が見る場面では、真似をしても危険にならない演目を厳選しています。学校・幼稚園・福祉施設でも安心してご依頼いただけます。</p>
+        <ul>
+          <li>テーブルマジック・クロースアップマジック</li>
+          <li>ステージマジック</li>
+          <li>マジック教室</li>
+          <li>出演時間の目安：30分〜（ご相談可）</li>
+        </ul>
+      </section>
+
+      <section class="about-section">
+        <h2>依頼可能エリア</h2>
+        <p>大阪市内および北摂エリアを中心に対応しています。上記以外のエリアについてもお気軽にご相談ください。</p>
+      </section>
+
+      <section class="about-section">
+        <h2>依頼の流れ</h2>
+        <p class="note">※ 社会人サークルのため、出演は<strong>土日祝日のみ</strong>対応しています。</p>
+        <p class="note">※ 当団体は<strong>無償のボランティア活動のみ</strong>受け付けており、有償での出演依頼はお断りしています。</p>
+        <p class="note">※ 公共交通機関でアクセスできる場所に限らせていただいています。</p>
+        <ol>
+          <li>お問い合わせページからご連絡</li>
+          <li>日程・場所・内容のご確認</li>
+          <li>当日出演</li>
+        </ol>
+      </section>
     </div>
 
     <div id="page-works" class="page">
       <h1>活動実績</h1>
-      <p>これまでの活動実績を紹介するページです。</p>
+
+      <div class="accordion">
+
+        <img src="image/History/準備中.png" alt="準備中" class="preparing">
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>サンプル画像（過去のショーの様子）</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-body">
+
+            <div class="accordion-item accordion-item--event">
+              <button class="accordion-header accordion-header--event">
+                <span>サンプル画像1（過去のショーの様子）</span>
+                <span class="accordion-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                <div class="event-detail">
+                  <img src="image/History/stage1.jpg" alt="過去のショーの様子1">
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item accordion-item--event">
+              <button class="accordion-header accordion-header--event">
+                <span>サンプル画像2（過去のショーの様子）</span>
+                <span class="accordion-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                <div class="event-detail">
+                  <img src="image/History/stage2.jpg" alt="過去のショーの様子2">
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item accordion-item--event">
+              <button class="accordion-header accordion-header--event">
+                <span>サンプル画像3（過去のショーの様子）</span>
+                <span class="accordion-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                <div class="event-detail">
+                  <img src="image/History/stage3.jpg" alt="過去のショーの様子3">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
     </div>
 
     <div id="page-contact" class="page">
       <h1>お問い合わせ</h1>
-      <p>お問い合わせはこちらのページからどうぞ。</p>
+      <p class="contact-intro">お問い合わせはメールにて受け付けています。</p>
+      <p class="contact-email"><a href="mailto:oosakakitavolunteermagicians@gmail.com?subject=ショーご依頼について&amp;body=【ご依頼内容】%0A%0A・お名前（団体名）：%0A・会場：%0A・開始時間・入り時間：%0A・ショーの時間：%0A・対象人数：%0A・会場の広さ・演技する場所の広さ（写真があれば添付してください）：%0A">oosakakitavolunteermagicians@gmail.com</a></p>
+
+      <section class="contact-section">
+        <h2>ご依頼の際にお知らせください</h2>
+        <p>ご依頼の場合は、以下の情報をメールに記載してお送りください。</p>
+        <ul class="contact-list">
+          <li>お名前（団体名）</li>
+          <li>会場</li>
+          <li>開始時間・入り時間</li>
+          <li>ショーの時間</li>
+          <li>対象人数</li>
+          <li>会場の広さ・演技する場所の広さ<span class="contact-hint">（会場や演技スペースの写真があればお送りください）</span></li>
+        </ul>
+      </section>
+
+      <section class="contact-section">
+        <h2>依頼可能エリア</h2>
+        <p>大阪市内および北摂エリアを中心に対応しています。上記以外のエリアについてもお気軽にご相談ください。</p>
+      </section>
+
+      <section class="contact-section">
+        <h2>ご注意</h2>
+        <ul class="contact-notes">
+          <li>社会人サークルのため、出演は<strong>土日祝日のみ</strong>対応しています。</li>
+          <li>当団体は<strong>無償のボランティア活動のみ</strong>受け付けており、有償での出演依頼はお断りしています。</li>
+          <li>公共交通機関でアクセスできる場所に限らせていただいています。</li>
+          <li>ご依頼に関する内容以外へのご返信はいたしかねます。あらかじめご了承ください。</li>
+        </ul>
+      </section>
     </div>
   </div>
 
   <!-- 右サイドバー -->
   <div id="sidebar">
-    <div class="logo">MENU</div>
+    <div class="logo"><img src="image/Other/logo.png" alt="OKVMC"></div>
     <nav>
       <a href="#" class="nav-link active" data-target="page-top">TOP</a>
+      <a href="#" class="nav-link" data-target="page-about">About Us</a>
+      <a href="#" class="nav-link" data-target="page-works">活動実績</a>
+      <a href="#" class="nav-link" data-target="page-contact">お問い合わせ</a>
+    </nav>
+  </div>
+
+  <!-- 横向き警告 -->
+  <div id="rotate-message">
+    <p>📱</p>
+    <p>縦向きでご覧ください</p>
+  </div>
+
+  <!-- モバイルヘッダー -->
+  <div id="mobile-header">
+    <div class="mobile-logo"><img src="image/Other/logo.png" alt="OKVMC"></div>
+    <button id="hamburger" aria-label="メニューを開く">&#9776;</button>
+  </div>
+
+  <!-- モバイルメニュー -->
+  <div id="mobile-menu">
+    <button id="menu-close" aria-label="メニューを閉じる">&#x2715;</button>
+    <nav>
+      <a href="#" class="nav-link" data-target="page-top">TOP</a>
       <a href="#" class="nav-link" data-target="page-about">About Us</a>
       <a href="#" class="nav-link" data-target="page-works">活動実績</a>
       <a href="#" class="nav-link" data-target="page-contact">お問い合わせ</a>
